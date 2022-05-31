@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo_mini.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Maca Bakery</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#servicios" class="selected">Nuestros Servicios</a>
+            <a href="#galeria" class="selected">Galería</a>
+            <a href="#acerca-de" class="selected">Acerca de</a>
+            <a href="#formulario" class="selected">Contacto</a>
+            <a href="#sucursal" class="selected">Nuestro Local</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Disfrutá de la torta de tus sueños</h1>
+            <h2>Diseñamos y preparamos la torta que siempre quisiste.</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-1.97,63.66 C154.91,-45.86 323.64,194.91 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor nuestros-servicios" id="servicios">
+            <h2 class="titulo">Nuestos Servicios</h2>
+            <div class="contenedor-nuestros-servicios">
+                <ul>
+                    <li><a href="#servicios" onmouseover="mostrarPestaña('Foto1');">Local</a></li>
+                    <li><a href="#servicios" onmouseover="mostrarPestaña('Foto2');">Tortas y Cupkaces</a></li>
+                    <li><a href="#servicios" onmouseover="mostrarPestaña('Foto3');">Macaroons</a></li>
+                </ul>
+                <div id="Foto1" style="width:500px;height:250px;">
+                    <img src="img/local_editada.jpg" />
+                </div>
+                <div id="Foto2" style="width:500px;height:300px;display:none;">
+                    <img src="img/local_editada2.jpg" />
+                </div>
+                <div id="Foto3" style="width:500px;height:300px;display:none;">
+                    <img src="img/productos1.jpg" />
+                </div>
+                <script type="text/javascript" src='form.js'></script>
+            </div>
+            <div class="contenedor-texto-servicios">
+                <h3><span>1</span> Nuestras Tortas</h3>
+                <p>Artesanalmente naturales, elaboradas con materiales de primera calidad, hechas como en casa.</p>
+                <h3><span>2</span> Decoraciones</h3>
+                <p>Se destacan las tortas temáticas con los detalles a solicitud
+                    del cliente, altamente creativas son opciones novedosas para todo tipo de evento.</p>
+            </div>
+        </section>
+        <section class="galeria" id="galeria">
+            <div class="galeria-port">
+                <h2 class="titulo">Galería</h2>
+                <div class="galeria-fotos">
+                    <a class="link" href="torta1.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta1.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta2.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta2.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta3.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta3.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta4.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta4.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta5.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta5.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta6.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta6.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta7.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta7.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="torta8.html" target="_blank">
+                        <div class="imagen-galeria">
+                            <img src="img/torta8.jpg" alt="">
+                            <div class="hover-galeria">
+                                <img src="img/logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <section class="contenedor acerca-de" id="acerca-de">
+            <h2 class="titulo">Acerca de</h2>
+            <div class="contenedor-acerca-de">
+                <img src="img/presentacion-500px.jpg" alt="Maca" class="imagen-acerca-de">
+                <div class="contenedor-texto-acerca">
+                    <p>Maca Creative Bakery brinda el mejor servicio de tortas temáticas. Una empresa con una selección
+                        de
+                        productos dulces hechos de manera artesanal,
+                        donde se encuentra opciones ideales para eventos especiales como matrimonios, bautizos, primera
+                        comunión, cumpleaños, entre otros.</p>
+
+                    <p>Nacida en la Ciudad de Puerto Madryn, Maca encontró su vocación a los 7 años de edad, cuando
+                        comenzó a hornear en su casa delicias para los suyos, inspirada por su abuela, chef autodidacta
+                        y artífice de grandes banquetes familiares. Con el pasar de los años, su labor marcó una nueva
+                        tendencia en cuanto a decoración y combinación de sabores en pastelería, llegando a trabajar
+                        para las personalidades
+                        más destacadas de Argentina y creando su propia línea de pastelería fina y artesanal.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor form" id="formulario">
+            <h3 class="titulo">Pedí tu presupuesto!</h3>
+            <div>
+                <form id="form">
+                    <label class="form-label">Nombre y Apellido</label>
+                    <input type="text" id="nombre" class="form-control">
+                    <label class="form-label">Email</label>
+                    <input type="text" id="email" class="form-control">
+                    <label class="form-label">Tipo de evento</label>
+                    <select id="evento" class="form-select" aria-label=".form-select-lg evento">
+                        <option value="">Elija una opción</option>
+                        <option value="cumpleaños">Cumpleaños</option>
+                        <option value="casamiento">Casamiento</option>
+                        <option value="15">Fiesta de 15</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                    <label class="form-label">Consulta</label>
+                    <textarea class="form-text" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <br>
+                    <button class="btn btn-primary" type="submit" onclick="validarFormulario()">Enviar</button>
+                </form>
+                <script src="form.js"></script>
+            </div>
+        </section>
+
+    </main>
+    <section class="contenedor sucursal" id="sucursal">
+        <h3 class="titulo">Nuestro Local</h3>
+        <div class="contenedor-texto-sucursal">
+            <h6> Av. Roca 517 - Puerto Madryn - Chubut</h6>
+        </div>
+        <div class="contenedor-sucursal">
+            <img src="img/local_fachada.jpg" alt="Fachada">
+            <iframe class="iframe1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.919525431807!2d-65.03598717884199!3d-42.76890718424053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe024a9ea38e6e3d%3A0x55fb9e13116e2895!2sAv.%20Julio%20Argentino%20Roca%20517%2C%20U9120%20Puerto%20Madryn%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1653522914526!5m2!1ses-419!2sar"
+                width="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br><br>
+        <div class="contenedor-texto-sucursal">
+            <h6>Un recorrido por nuestro local</h6>
+            <iframe class="iframe2" width="500" src="https://www.youtube.com/embed/xERf5Snv1iA?controls=0"
+                title="Un recorrido de nuestro local" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor-footer" id="footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>(0280)435-6222</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>macabakery@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Domicilio</h4>
+                <p>Av. Roca 517</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Maca Repetto Design</h2>
+    </footer>
+</body>
+
+</html>
